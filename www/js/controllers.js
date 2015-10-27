@@ -1,11 +1,18 @@
 angular.module('starter.controllers', [])
 
 .controller('FavesCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
+  
 })
 
 .controller('AllCtrl', function($scope) {
   
+    $scope.widgets=[
+        {
+            title: 'Basic Math',
+            href:'#/tab/basicmath',
+            fave: false,
+            uses:0   
+        }
+    ];
+    
 });

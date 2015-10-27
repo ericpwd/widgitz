@@ -58,6 +58,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         controller: 'FavesCtrl'
       }
     }
+  })
+  
+  .state('tab.basicmath', {
+    url: '/basicmath',
+    views: {
+      'tab-all': {
+        templateUrl: 'templates/widgets/basicmath.html',
+        controller: 'AllCtrl'
+      }
+    }
   });
 
   // if none of the above states are matched, use this as the fallback
