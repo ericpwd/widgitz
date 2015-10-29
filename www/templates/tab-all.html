@@ -7,11 +7,11 @@
             <ion-item>
             Calling all widgets!
             </ion-item>
-            <ion-item class="item-button-right" ng-repeat="widget in widgets" href="{{widget.href}}">
+            <ion-item class="item-button-right" ng-repeat="widget in widgets">
                 {{widget.title}}
-                <button class="button button-dark">
+                <a class="button button-dark" href="{{widget.href}}">
                     <i class="icon ion-ios-arrow-forward"></i>
-                </button>
+                </a>
             </ion-item>
         </ion-list>
     </ion-content>
