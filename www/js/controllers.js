@@ -4,14 +4,17 @@ angular.module('starter.controllers', [])
   
 })
 
-.controller('AllCtrl', function($scope) {
+.controller('AllCtrl', function($scope, $location) {
   
     $scope.widgets=[
         {
             title: 'Basic Math',
-            href:'#/tab/basicmath',
+            href:'/tab/basicmath',
             fave: false,
-            uses:0   
+            uses:0,
+            go: function () {
+                $location.path(this.href)
+            }   
         }
     ];
 
