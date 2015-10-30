@@ -15,6 +15,10 @@ Alright, yet another simple Ionic app. This one is just a box full of randomly h
 
 4. Go to `localhost:8100` and enjoy the awesomeness of *livereload*
 
+###Want to <a href="http://view.ionic.io" target="_blank">View</a> it?
+
+There is in fact a way to view it on your phone, through the <a href="http://view.ionic.io" target="_blank"> Ionic View</a> app (<a href="https://play.google.com/store/apps/details?id=com.ionic.viewapp&hl=en" target="_blank">Android</a> and <a href="https://itunes.apple.com/us/app/ionic-view/id849930087?mt=8" target="_blank">iOS</a>). All you have to do is make an <a href="https://apps.ionic.io/signup" target="_blank">Ionic IO</a> account, and send me an email at <a href="mailto:colinpir13@gmail.com" target="_blank">colinpir13@gmail.com</a> and I will share the app with you, giving you access to view it.
+
 ### Questions? <a href="https://twitter.com/colindevs" target="_blank">Tweet 'em loud!</a>
 
 Ask me a question <a href="https://twitter.com/colindevs" target="_blank">@colindevs</a>
